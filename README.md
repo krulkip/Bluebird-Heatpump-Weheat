@@ -21,8 +21,8 @@ I am always open for any discussion on this topic with Weheat or anyone else.
 
 As a first step i wanted to see if it was possible to have some interaction with the Weheat backoffice.
 Via Mr Zeekoe who wrote a java application extracting logging data for display on Grafana i received help to make this possible.
-The enclosed program is a proof of concept. It requests and access token and uses that to extract thye most recent data from my heatpump.
-Therer i can see the room temperature, room temperature setpoint and the different water temperatures.
+The enclosed program is a proof of concept. It requests and access token and uses that to extract the most recent data from my heatpump.
+There i can see the room temperature, room temperature setpoint and the different water temperatures.
 This is done by using two API calls. The first one gets the access token which has been trunkated.
 I do not know what the refresh_token nor the id_token are.<br/>
 {<br/>
@@ -55,7 +55,7 @@ The second call gets the actual data and looks like the following:<br/>
   "interval": 5<br/>
 }<br/>
 
-Please note this is just a few of the items that are displayed. The actuallist is much bigger.
+Please note this is just a few of the items that are displayed. The actual list is much bigger.
 Again the heatPumpId has been trunkated.
 
 I hope this helps someone. I noticed that there are more components to the api.
