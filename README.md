@@ -1,6 +1,6 @@
 # Bluebird-Heatpump-Weheat
 
-Weheat company makes a hybrid heatpump called blackbird. It combines the possibility of using electricity and gas as the energy source for the heatpump. This means you can get fast heat using the gas and use electrical heating the rest of the time. I have an Anna thermostat which works together with an ADAM HA gateway both from Plugwise. The system was installed in September 2023 and after some teathing problems has worked as promised. <br/>
+Weheat company makes a hybrid heatpump called blackbird. It combines the possibility of using electricity and gas as the energy source for the heatpump. This means you can get fast heat using the gas and use electrical heating the rest of the time. I have an Anna thermostat which works together with an ADAM HA gateway both from Plugwise. The system was installed in September 2023 and after some teething problems has worked as promised. <br/>
 
 There are however still some quirks which i would like to address and I am working to try to do that step by step. <br/>
 Firstly the Anna stears the ADAM and this in turn sends the required water temperature to the Bluebird. Unfortunately the ADAM control mechanism has a minimum water temperature setting at 27degrees.
